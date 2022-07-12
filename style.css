@@ -1,0 +1,63 @@
+:root{
+    --color-primary: rgb(21, 51, 99);
+    --color-light: whitesmoke;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div h1 {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    font-size: 60px;
+}
+
+section h1 {
+    font-size: 33px;
+}
+
+.main-paragraph {
+    max-width: 35em;
+    margin-left: 20%;
+}
+
+.main-top {
+    background-color: rgb(233, 237, 243);
+    height: 25px;
+}
+
+.right {
+    max-width: 20%;
+    border: 3px;
+    margin-left: 8%;    
+}
+
+.right img {
+    height: 200px;
+    width: 200px;
+}
+
+.footer {
+    background-color: var(--color-primary);
+    height: 20%;
+}
+
+/* Utility classes */
+
+.d-flex{
+    display: flex;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.p1{
+    padding: .5em;
+}
+
+.p2{
+    padding: 1em;
+}
